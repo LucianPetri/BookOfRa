@@ -112,7 +112,7 @@ Let's strive for excellence by embracing these guidelines and ensuring that the 
 The repository follows a modular directory structure to provide organization and clarity for the playbooks. Here's an overview of the structure:
 
 ```markdown
-BookOfRa/
+src/
 ├── category1/
 | ├── PLAYBOOK_NAME/
 | │ ├── PLAYBOOK_NAME.yml
