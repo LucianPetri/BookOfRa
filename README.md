@@ -107,6 +107,39 @@ Let's strive for excellence by embracing these guidelines and ensuring that the 
 
 ## 🤝 Let's Collaborate!
 
+### Directory Structure
+
+The repository follows a modular directory structure to provide organization and clarity for the playbooks. Here's an overview of the structure:
+
+```markdown
+BookOfRa/
+├── category1/
+| ├── PLAYBOOK_NAME/
+| │ ├── PLAYBOOK_NAME.yml
+| │ ├── PLAYBOOK_NAME_vars.yml
+| │ ├── PLAYBOOK_NAME_files/
+| │ ├── PLAYBOOK_NAME_templates/
+| │ ├── PLAYBOOK_NAME_tests/
+| │ └── PLAYBOOK_NAME_docs/
+├── ...
+```
+
+- Each playbook has its own dedicated folder, containing the playbook YAML file, variables file, files directory, templates directory, tests directory, and docs directory.
+
+### 💡 Code Style and Guidelines
+
+- 👨‍💻 Follow consistent code formatting and adhere to best practices.
+- 💬 Include appropriate comments to explain complex tasks or configurations.
+- ♻️ Ensure your playbooks are modular, reusable, and well-documented.
+- 📝 Write meaningful commit messages that describe the purpose of each commit.
+
+### 📚 Documentation
+
+- 📖 Keep the documentation up to date with any changes or additions.
+- 📋 Provide clear and concise explanations of playbook usage, variables, and any customization options.
+- 💡 Include examples and usage scenarios to assist users in understanding the playbooks.
+
+
 We value your contributions and appreciate your commitment to making the **Book of Ra** a comprehensive resource for server automation. By contributing your playbooks, you help create a vibrant community that shares knowledge and empowers others to automate their server management tasks.
 
 Join us in this exciting journey of automation and contribute to the **Book of Ra** today! Together, we can unlock the true power of Ansible and simplify server management for everyone. 🚀✨🤖
